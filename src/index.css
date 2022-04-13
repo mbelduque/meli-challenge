@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .wd-input-search{
+    width: 900px
+  }
+}
