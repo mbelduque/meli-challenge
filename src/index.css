@@ -15,6 +15,7 @@ code {
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .wd-input-search{
-    width: 900px
+    width: 900px;
+    border-radius: 4px;
   }
 }
