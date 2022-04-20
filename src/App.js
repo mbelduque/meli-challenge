@@ -1,13 +1,17 @@
-import GlobalStyles from './styles/GlobalStyles'
-import {Layout} from "./components/layout";
+import React from 'react';
 
+import Header from './components/Header';
+import ListProducts from './components/ListProducts';
+import ProductosProvider from './context/ContextProducts';
 
 function App() {
     return (
-        <div>
-            <Layout />
-            <GlobalStyles/>
-        </div>
+        <ProductosProvider>
+            <Header/>
+            <div className="uk-container uk-margin-medium-top">
+                <ListProducts/>
+            </div>
+        </ProductosProvider>
     );
 }
 
